@@ -10,7 +10,7 @@ class Config:
     DATABASE_URI = os.environ.get("DATABASE_URI", "")
     DATABASE_NAME = os.environ.get("DATABASE_NAME","Cluster0")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Forward_data')
-    SESSION = os.environ.get("SESSION", "BQAZ3mUARGPfzi_Jovf6ryUN-hxQFS4kSDiDMWiAk2arhfBiANxF0paZIdG_hVl1FSuylVVAoIqSFboawt3YoSuG4AMLBq76tIYqed6yT0nZVX0o3GtKRxu-9QsDapLUC8eN8bTfn6wLwOcTrvrjJoXeomzvMQqrhaTNNDTLN25f77LHP-X5tlhvTqCPh0aLsdTxjHm49zd45yzfzmU6Z-tpobDKwDnJHVQ9Zoy7-mfuDiXkzsUfDLBblyvmRkopN5_oIx8uuBuIV_wNlr4pxcWC5Cb05E6WZsG5CPGKYq1mdoRYG-m-EXeN5CmkPgnZvweDQ6FaZFD-Cf-8oz1kK0UcluJSLAAAAAA8mqdNAA)
+    SESSION = os.environ.get("SESSION", "BQAZ3mUARGPfzi_Jovf6ryUN-hxQFS4kSDiDMWiAk2arhfBiANxF0paZIdG_hVl1FSuylVVAoIqSFboawt3YoSuG4AMLBq76tIYqed6yT0nZVX0o3GtKRxu-9QsDapLUC8eN8bTfn6wLwOcTrvrjJoXeomzvMQqrhaTNNDTLN25f77LHP-X5tlhvTqCPh0aLsdTxjHm49zd45yzfzmU6Z-tpobDKwDnJHVQ9Zoy7-mfuDiXkzsUfDLBblyvmRkopN5_oIx8uuBuIV_wNlr4pxcWC5Cb05E6WZsG5CPGKYq1mdoRYG-m-EXeN5CmkPgnZvweDQ6FaZFD-Cf-8oz1kK0UcluJSLAAAAAA8mqdNAA")
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001665685493"))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", "@TheMediaForwardBot")
 
